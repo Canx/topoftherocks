@@ -8,7 +8,7 @@ require.config({
 
 });
 
-require(['views/songs'], function(SongsView){
-  var songs_view = new SongsView;
-  songs_view.render();
+require(['views/ranking'], function(RankingView){
+  var ranking_view = new RankingView;
+  ranking_view.render();
 });
