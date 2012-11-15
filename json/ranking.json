@@ -14,7 +14,12 @@
     {
         "id": 3,
         "song": "Bohemian Rapsody",
-        "year": 1975,
+        "year": 1976,
         "band": "Queen"
+    },
+    {
+        "id": 4,
+        "song": "While my guitar gently weeps",
+        "band": "Beatles"
     }
 ]
