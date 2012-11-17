@@ -7,10 +7,6 @@ define([
 ], function($, _, Backbone, Songs, SongView){
     var RankingView = Backbone.View.extend({
 
-      list: [ { id: 1, song: "Anarchy in the UK", year: 1977, band: "Sex Pistols"},
-              { id: 2, song: "Black is Black",    year: 1966, band: "Los Bravos"},
-              { id: 3, song: "Bohemian Rapsody", year: 1975,  band: "Queen"}],
-
       el: $("#ranking"),
 
       events: {
